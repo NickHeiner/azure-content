@@ -40,7 +40,7 @@ If Node.js is installed on your system, use the following command to install the
 
 	npm install azure-cli -g
 
->[WACOM.NOTE] You may need to use `sudo` to successfully run the __npm__ command.
+>[WACOM.NOTE] As always, you should not use `sudo` to run the __npm__ command. Just use `npm config set prefix <dir you own>` to set npm's global install directory to be somewhere that your user owns, and then you don't need to use `sudo`. For more detail about `sudo` and `npm install`, see [this blog post](http://howtonode.org/introduction-to-npm).
 
 This will install the xplat-cli and required dependencies. At the end of the installation, you should see something similar to the following:
 
